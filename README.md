@@ -4,6 +4,8 @@
 The task of [video-to-text matching](https://arxiv.org/abs/1709.01362) is to find amidst a set of sentences the one best describing the content of a given video clip. From a pattern recognition viewpoint, the task is essentially a two-class classification problem. Concerning the question of whether a specific sentence is relevant with respect to a given video, the answer is either yes or no.
 This package provides a python-based conceptual framework for beginners.
 
+![video to text mathcing](vtt-matching.png)
+
 ## Data
 
 Dataset  | Purpose  | # of videos | # of sentences
