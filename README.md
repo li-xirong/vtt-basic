@@ -12,14 +12,14 @@ msrvtt10k    | training   | 10,000 | 200,000
 tv2016train  | validation | 200 | 200 (setA), 200 (setB)
 tv2016test   | testing    | 1,915 | 1,915 (setA), 1,915 (setB)
 
-The datasets are typically used as follows. A model is trained on msrvtt10k, with hyper parameters (if applicable) optimized on tv2016train. The performance of the model is tested on tv2016test.
+The datasets shall be used as follows. A model is trained on msrvtt10k, with hyper parameters (if there is any) optimized on tv2016train. The performance of the model is tested on tv2016test.
 
 The following script setups the data at a local (non-windows) machine.
 ```bash
 mkdir $HOME/VisualSearch
 cd $HOME/VisualSearch
 wget http://lixirong.net/data/tv16/vtt-data.zip
-unzip -r vtt-data.zip
+unzip vtt-data.zip
 ```
 
 ## Code
