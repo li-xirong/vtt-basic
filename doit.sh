@@ -1,5 +1,5 @@
 
-rootpath=$HOME/VisualSearch1
+rootpath=$HOME/VisualSearch
 videoCollection=tv2016test
 sentSet=setA
 modelName=random
